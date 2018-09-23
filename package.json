@@ -1,0 +1,37 @@
+{
+    "name": "tron",
+    "displayName": "Tron",
+    "description": "Port of the tron color scheme for sublime text",
+    "license": "MIT",
+    "version": "0.1.1",
+    "publisher": "TobiasTimm",
+    "preview": false,
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "keywords": [
+        "theme",
+        "tron",
+        "blue",
+        "dark"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tobiastimm/vscode-tron.git"
+    },
+    "bugs": {
+        "url": "https://github.com/tobiastimm/vscode-tron/issues"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tron",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tron.json"
+            }
+        ]
+    }
+}
